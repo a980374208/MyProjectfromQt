@@ -1,2 +1,1 @@
-# -
-# MyProjiecForQt
+# MyProjectfromQt
