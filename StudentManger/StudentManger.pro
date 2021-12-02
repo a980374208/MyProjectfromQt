@@ -60,5 +60,4 @@ DISTFILES +=
 TRANSLATIONS += ./trans_ch.ts
 
 RESOURCES += \
-    ../../img/img.qrc \
-    ../../img/img.qrc
+    img/img.qrc

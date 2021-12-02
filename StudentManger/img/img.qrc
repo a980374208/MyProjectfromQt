@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>333.png</file>
+        <file>1111.png</file>
+        <file>2222.png</file>
+        <file>MangerPix.png</file>
+        <file>StudentBackground.png</file>
+        <file>TeacherBackground.png</file>
+        <file>TeacherInterface.png</file>
+    </qresource>
+</RCC>
