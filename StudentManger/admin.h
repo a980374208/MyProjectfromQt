@@ -10,6 +10,7 @@
 #include "teachermanger.h"
 #include "coursemanger.h"
 #include <QMenu>
+#include <QCloseEvent>
 
 namespace Ui {
 class CAdmin;
@@ -31,6 +32,8 @@ public:
     ~CAdmin();
 public slots:
      void ReciveDatabase(QSqlDatabase db,QString user,QString Password);
+private:
+     void closeEvent(QCloseEvent* event);
 
 private slots:
     void on_pushButton_StudentManger_clicked();

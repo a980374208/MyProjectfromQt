@@ -53,6 +53,12 @@ void CAdmin::ReciveDatabase(QSqlDatabase db, QString user, QString Password)
     m_strPassword = Password;
 }
 
+void CAdmin::closeEvent(QCloseEvent *event)
+{
+    event->accept();
+    this->deleteLater();
+}
+
 void CAdmin::on_pushButton_StudentManger_clicked()
 {
     if(!m_pTeacher)
