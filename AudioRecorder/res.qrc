@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/001.GIF</file>
+        <file>images/5.ico</file>
+        <file>images/22.ico</file>
+        <file>images/23.ico</file>
+        <file>images/104.bmp</file>
+        <file>images/110.JPG</file>
+        <file>images/132.bmp</file>
+        <file>images/212.bmp</file>
+        <file>images/214.bmp</file>
+        <file>images/224.bmp</file>
+        <file>images/237.GIF</file>
+        <file>images/316.bmp</file>
+        <file>images/318.bmp</file>
+        <file>images/430.bmp</file>
+        <file>images/610.bmp</file>
+        <file>images/612.bmp</file>
+        <file>images/616.bmp</file>
+        <file>images/620.bmp</file>
+        <file>images/622.bmp</file>
+        <file>images/624.bmp</file>
+        <file>images/626.bmp</file>
+        <file>images/630.bmp</file>
+        <file>images/632.bmp</file>
+        <file>images/828.bmp</file>
+        <file>images/Audio CD.ico</file>
+        <file>images/audio_file.ico</file>
+        <file>images/Movie Clip.ico</file>
+        <file>images/music.ico</file>
+        <file>images/mute.bmp</file>
+        <file>images/Recycle Bin empty.ico</file>
+        <file>images/volumn.bmp</file>
+        <file>images/Wave Sound.ico</file>
+    </qresource>
+</RCC>

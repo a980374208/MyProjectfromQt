@@ -16,6 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
     m_pPlayer->setPlaylist(m_pPlaylist);
     //m_pPlayer->setVolume(30);
     ui->sliderVolumn->setValue(30);
+    setWindowTitle("音乐播放器");
 
     connect(m_pPlayer,&QMediaPlayer::stateChanged,this,&MainWindow::ON_stateChanged);
     connect(m_pPlayer,&QMediaPlayer::positionChanged,this,&MainWindow::ON_posiontionChanged);
