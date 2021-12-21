@@ -1,0 +1,21 @@
+#ifndef GENERATE
+#define GENERATE
+
+#include <QObject>
+#include <QThread>
+#include <QVector>
+
+class Generate : public QThread
+{
+     Q_OBJECT
+public:
+    explicit Generate(QObject *parent = nullptr);
+    void recvNum(int num);
+signals:
+protected:
+    void run() override;
+private:
+    int m_num;
+};
+
+#endif // GENERATE

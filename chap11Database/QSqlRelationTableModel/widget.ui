@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>664</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actOpenDB">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/open3.bmp</normaloff>:/images/images/open3.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+   <property name="toolTip">
+    <string>打开数据库</string>
+   </property>
+  </action>
+  <action name="actQuit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/exit.bmp</normaloff>:/images/images/exit.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actRecAppend">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/316.bmp</normaloff>:/images/images/316.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>添加</string>
+   </property>
+   <property name="toolTip">
+    <string>添加记录</string>
+   </property>
+  </action>
+  <action name="actRecInsert">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/306.bmp</normaloff>:/images/images/306.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>插入</string>
+   </property>
+   <property name="toolTip">
+    <string>插入记录</string>
+   </property>
+  </action>
+  <action name="actSubmit">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/save1.bmp</normaloff>:/images/images/save1.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="toolTip">
+    <string>保存修改</string>
+   </property>
+  </action>
+  <action name="actRevert">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/ubdo.bmp</normaloff>:/images/images/ubdo.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="toolTip">
+    <string>取消修改</string>
+   </property>
+  </action>
+  <action name="actRecDelete">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/delete1.bmp</normaloff>:/images/images/delete1.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+   <property name="toolTip">
+    <string>删除记录</string>
+   </property>
+  </action>
+  <action name="actFields">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/124.bmp</normaloff>:/images/images/124.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>字段列表</string>
+   </property>
+   <property name="toolTip">
+    <string>字段列表</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
