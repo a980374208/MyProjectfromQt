@@ -1,0 +1,61 @@
+create table student(
+sno varchar(20) primary key, 
+sname varchar(20) not null,
+ssex varchar(20) not null,
+sbirthday datetime,
+class varchar(20)
+);
+ create table teacher(
+tno varchar(20) primary key,
+tname varchar(20) not null,
+tsex varchar(10) not null,
+tbirthday datetime,
+prof varchar(20) not null,
+depart varchar(20) not null
+);
+ create table course(
+cno varchar(20) primary key,
+cname varchar(20) not null,
+tno varchar(20) not null,
+foreign key(tno) references teacher(tno)
+);
+create table score(
+sno varchar(20) not null,
+cno varchar(20) not null,
+degree decimal,
+foreign key(sno) references student(sno),
+foreign key(cno) references course(cno),
+primary key(sno, cno)
+);
+insert into student values('101','曾华','男','1977-09-01','95033');
+insert into student values('102','匡明','男','1975-05-01','95031');
+insert into student values('103','王丽','女','1971-04-01','95033');
+insert into student values('104','李俊','男','1972-06-01','95033');
+insert into student values('105','王芳','女','1973-09-01','95031');
+insert into student values('106','陆军','男','1975-05-01','95031');
+insert into student values('107','王尼玛','男','1975-06-01','95033');
+insert into student values('108','张全蛋','男','1978-02-01','95031');
+insert into student values('109','赵铁柱','男','1972-08-01','95031');
+
+
+insert into teacher values('804','李城','男','1958-09-01','副教授','计算机系');
+insert into teacher values('856','张旭','男','1969-05-01','讲师','电子工程系');
+insert into teacher values('825','王萍','女','1972-04-01','助教','计算机系');
+insert into teacher values('831','刘兵','女','1977-06-01','助教','电子工程系');
+
+
+
+insert into course values('3-105','计算机导论','825');
+insert into course values('3-245','操作系统','804');
+insert into course values('6-166','数字电路','856');
+insert into course values('9-888','高等数学','831');
+
+insert into score values('103','3-105','92');
+insert into score values('103','3-245','86');
+insert into score values('103','6-166','85');
+insert into score values('105','3-105','88');
+insert into score values('105','3-245','75');
+insert into score values('105','6-166','79');
+insert into score values('109','3-105','76');
+insert into score values('109','3-245','68');
+insert into score values('109','6-166','81');

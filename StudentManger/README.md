@@ -1,1 +1,1 @@
-请构建完成后把studentmanger.db放到构建目录
+请构建完成后把studentmanger.db放到构建目录（不行的话运行一次后在目录里查找大小为0kb的studentmanger.db把它替换了）
